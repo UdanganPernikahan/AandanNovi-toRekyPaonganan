@@ -1,0 +1,6 @@
+{
+  "name": "Undangan Pernikahan Online",
+  "description": "A beautiful, responsive online wedding invitation template.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

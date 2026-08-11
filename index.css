@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-script: "Alex Brush", cursive;
+  --color-sage-100: #FDFBF7;
+  --color-sage-500: #7A8471;
+  --color-sage-800: #5A5A40;
+  --color-ivory: #FDFBF7;
+  --color-gold: #BC9C78;
+  --color-tan: #D1C7B7;
+  --color-gray: #4A4A4A;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-sage-800);
+  font-family: var(--font-serif);
+  overflow-x: hidden;
+}
