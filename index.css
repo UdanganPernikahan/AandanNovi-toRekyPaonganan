@@ -1,6 +1,9 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
+/* CSS variables */
+:root {
   --font-sans: "Montserrat", sans-serif;
   --font-serif: "Cormorant Garamond", serif;
   --font-script: "Alex Brush", cursive;
@@ -18,4 +21,9 @@ body {
   color: var(--color-sage-800);
   font-family: var(--font-serif);
   overflow-x: hidden;
+}
+
+/* Example helpers */
+h1, .script-title {
+  font-family: var(--font-script);
 }
